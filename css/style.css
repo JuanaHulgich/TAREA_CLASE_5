@@ -1,0 +1,42 @@
+*{
+  margin: 1;  
+  padding: 1;
+  box-sizing: border-box;
+}
+
+.navbar{
+    background-color: blueviolet;
+    background-color: rgb(185, 26, 124);
+    text-decoration: rgb(235, 128, 226);
+    height: 100%;
+    width: 100%;
+}
+
+.navbar__list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    padding: 1rem;
+}
+
+.navbar__item{
+    list-style: none;
+    margin: 0 0 2rem;
+}
+
+.navbar__links{
+    text-decoration: none;
+    color: rgb(224, 221, 17);
+}
+
+main{
+    margin-top: 4rem;
+}
+
+.footer{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
